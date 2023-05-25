@@ -1,0 +1,19 @@
+/* Reset do CSS */
+* {
+    margin: 0;
+    padding: 0;
+    /* preserva as dimensões das caixas */
+    box-sizing: border-box;
+}
+
+aside h1 {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 75px;
+}
+
+aside h1 span {
+    color: #ff5678;
+}
