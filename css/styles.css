@@ -16,6 +16,25 @@ body {
     font-size: 1.4rem;
 }
 
+.content {
+    display: grid;
+    grid-template-areas:
+        ". . . ."
+        ". hero form . "
+        ". hero form ."
+        ". . . ."
+    ;
+    gap: 8.5rem;
+}
+
+main {
+    grid-area: form;
+}
+
+aside {
+    grid-area: hero;
+}
+
 aside h1 {
     font-size: 6.4rem;
     font-weight: 50rem;
