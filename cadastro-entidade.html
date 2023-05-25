@@ -28,23 +28,35 @@
             </h1>
         </aside>
         <main>
-            <a href="index.html">
-                <i class="fa-sharp fa-solid fa-chevron-left"></i>
-            </a>
-            <h2>Nova <span>entidade</span></span></h2>
+
+            <header>
+                <a href="index.html">
+                    <i class="fa-sharp fa-solid fa-chevron-left"></i>
+                </a>
+                <h2>Nova <span>entidade</span></span></h2>
+            </header>
 
             <form>
-                <label for="input-name">nome</label>
+                <label for="input-name">Nome</label>
                 <input type="text" id="input-name">
 
-                <label for="input-filed">campo de atuação</label>
-                <input type="text" id="input-filed">
 
-                <label for="input-points">pontos de coleta</label>
-                <input type="text" id="input-points">
-                <button>
-                    <i class="fa-solid fa-circle-plus"></i>
-                </button>
+                <label for="input-filed">Campo de Atuação</label>
+                <select id="input-filed">
+                    <option value="" selected></option>
+                    <option value="abrigo">Abrigo de Animais</option>
+                    <option value="EcoPont">Ecoponto de Entulho</option>
+                    <option value="LojasCEL">Lojas CEM</option>
+                </select>
+
+                <div class="points">
+                    <label for="input-points">Pontos de Coleta</label>
+                    <input type="text" id="input-points">
+
+                    <button>
+                        <i class="fa-solid fa-circle-plus"></i>
+                    </button>
+                </div>
 
             </form>
             <div class="actions">
